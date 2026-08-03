@@ -25,10 +25,21 @@ nav {
     justify-content: space-between;
 }
 
-#nav-bottom {
-    background-color: red;
+nav:hover #nav-bottom {
+    /* background-color: #0BA34E; */
     height: 100%;
-    width: 100%;
+    bottom: -100%;
+    
+}
+
+#nav-bottom {
+    /* background-color: red; */
+    height: 0%;
+    position: absolute;
+    width: 79%;
+    transition: all ease 0.65s;
+    bottom: 0%;
+    border-bottom: 1px solid #dadada;
 }
 
 nav h1{

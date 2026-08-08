@@ -153,6 +153,13 @@ nav h1 {
     padding: 2px;
 }
 
+/* #moving-div {
+    background-color: red;
+    margin-top: 10vh;
+    position: absolute;
+    bottom: 3%;
+} */
+
 #page2 {
     height: 100vh;
     width: 100%;

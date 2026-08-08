@@ -27,9 +27,9 @@ nav {
 
 nav:hover #nav-bottom {
     /* background-color: #0BA34E; */
-    height: 100%;
-    bottom: -100%;
-    
+    height: 150%;
+    bottom: -150%;
+    background-color: #111;
 }
 
 #nav-bottom {
@@ -40,6 +40,49 @@ nav:hover #nav-bottom {
     transition: all ease 0.65s;
     bottom: 0%;
     border-bottom: 1px solid #dadada;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2vw 15vw;
+    padding-left: 18.2vw;
+    /* padding-top: 6vw; */
+}
+
+nav button {
+    background-color: #0BA34E;
+    display: flex;
+    align-items: center;
+    padding: 12px 14px;
+    border-radius: 50px;
+    border: none;
+    font-size: 0.85vw;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+nav button svg {
+    height: 0.85vw;
+    margin-left: 1vw;
+    font-weight: 600;
+    font-size: 0.85vw;
+}
+
+.bottom-div {
+    margin-top: 2vw;
+    /* position: absolute; */
+}
+
+.bottom-div h5 {
+    overflow: hidden;
+    margin-bottom: 0.4vw;
+}
+
+.bottom-div h5 span {
+    /* background-color: #0BA34E; */
+    display: inline-block;
+    font-weight: 500;
+    font-size: 0.75vw;
+    opacity: 0;
 }
 
 nav h1{

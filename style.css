@@ -160,6 +160,125 @@ nav h1 {
     bottom: 3%;
 } */
 
+#logo-scroller {
+    width: 100%;
+    margin-top: 6vh;
+    display: flex;
+    justify-content: center;
+}
+ 
+.logo-static {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4.5vw;
+    row-gap: 2vh;
+    max-width: 80vw;
+}
+ 
+.brand {
+    color: #fff;
+    opacity: 0.45;
+    display: flex;
+    align-items: center;
+    transition: opacity 0.3s ease;
+    white-space: nowrap;
+}
+ 
+.brand:hover {
+    opacity: 0.9;
+}
+ 
+.brand-fwa {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.5vw;
+    letter-spacing: 0.05em;
+}
+ 
+.brand-forbes {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 1.6vw;
+}
+ 
+.brand-webflow {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.3vw;
+}
+ 
+.brand-pmi {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-size: 0.6vw;
+    line-height: 1.15;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+ 
+.brand-pmi b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.7vw;
+    height: 1.7vw;
+    margin-right: 0.5vw;
+    font-size: 0.75vw;
+    font-style: normal;
+    border: 1.5px solid #fff;
+    border-radius: 2px;
+}
+ 
+.brand-adweek {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 800;
+    font-size: 1.1vw;
+    letter-spacing: 0.02em;
+}
+ 
+.brand-awwwards {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.4vw;
+}
+ 
+.brand-reddot {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 500;
+    font-size: 1.2vw;
+    text-transform: lowercase;
+}
+ 
+@media (max-width: 768px) {
+    .logo-static {
+        gap: 8vw;
+        max-width: 90vw;
+    }
+    .brand-fwa,
+    .brand-forbes,
+    .brand-adweek,
+    .brand-reddot {
+        font-size: 22px;
+    }
+    .brand-webflow,
+    .brand-awwwards {
+        font-size: 20px;
+    }
+    .brand-pmi {
+        font-size: 10px;
+    }
+    .brand-pmi b {
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+}
+
 #page2 {
     height: 100vh;
     width: 100%;

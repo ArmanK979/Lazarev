@@ -288,6 +288,7 @@ nav h1 {
     padding: 2vw 10.5vw;
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid #333;
     align-items: center;
 }
 

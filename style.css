@@ -340,4 +340,5 @@ nav h1 {
     object-fit: cover;
     opacity: 0;
     position: absolute;
+    scale: 0;
 }

@@ -40,4 +40,15 @@ function navAnimation(){
     })
 }
 
-navAnimation();
+// navAnimation();
+
+var rightElems = document.querySelectorAll(".right-elem")
+
+rightElems.forEach(function(elem){
+    elem.addEventListener("mouseenter",function(){
+        elem.childNodes[3].style.opacity = 1
+    })
+    elem.addEventListener("mouseleave",function(){
+        elem.childNodes[3].style.opacity = 0
+    })
+})

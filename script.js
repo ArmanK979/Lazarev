@@ -40,11 +40,12 @@ function navAnimation(){
     })
 }
 
-// navAnimation();
+navAnimation();
 
-var rightElems = document.querySelectorAll(".right-elem")
+function page2Animation() {
+    var rightElems = document.querySelectorAll(".right-elem")
 
-rightElems.forEach(function(elem){
+    rightElems.forEach(function(elem){
     elem.addEventListener("mouseenter",function(){
         gsap.to(elem.childNodes[3],{
             opacity:1,
@@ -61,6 +62,9 @@ rightElems.forEach(function(elem){
         gsap.to(elem.childNodes[3],{
             x:dets.x - elem.getBoundingClientRect().x-50,
             y:dets.y - elem.getBoundingClientRect().y-120
+            })
         })
     })
-})
+}
+
+page2Animation()

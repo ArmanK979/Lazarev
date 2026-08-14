@@ -40,8 +40,6 @@ function navAnimation(){
     })
 }
 
-navAnimation();
-
 function page2Animation() {
     var rightElems = document.querySelectorAll(".right-elem")
 
@@ -66,5 +64,6 @@ function page2Animation() {
         })
     })
 }
+// navAnimation();
 
-page2Animation()
+// page2Animation()

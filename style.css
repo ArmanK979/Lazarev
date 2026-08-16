@@ -405,7 +405,6 @@ nav h1 {
     height: 100%;
     width: 100%;
     position: absolute;
-    /* object-fit: cover; */
     object-fit: fill;
     transform: scaleX(0.7) scaleY(0);
     opacity: 0;

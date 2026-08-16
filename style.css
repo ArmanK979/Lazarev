@@ -443,8 +443,6 @@ nav h1 {
     font-size: 300px;
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
-    /* color: #000; */
 }
 
 .p3-p2-normal {

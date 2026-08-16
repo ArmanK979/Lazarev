@@ -439,6 +439,7 @@ nav h1 {
 .p3-2-right {
     height: 80vh;
     width: 50%;
+    margin-right: 10%;
     font-size: 300px;
     display: flex;
     flex-direction: column;

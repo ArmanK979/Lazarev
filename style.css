@@ -419,6 +419,7 @@ nav h1 {
     display: flex;
     /* text-align: center; */
     text-align: start;
+    border-bottom: 2px solid #000;
 }
 
 .p3-2-left {

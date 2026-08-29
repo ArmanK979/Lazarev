@@ -177,7 +177,7 @@ function page6Animations() {
     })
 }
 
-locomotiveAnimation()
+locomotiveAnimation();
 
 navAnimation();
 
@@ -185,7 +185,7 @@ page2Animation();
 
 page3VideoAnimation();
 
-page6Animations()
+page6Animations();
 
-loadingAnimation()
+loadingAnimation();
 

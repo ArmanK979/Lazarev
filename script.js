@@ -105,4 +105,8 @@ page2Animation();
 
 page3VideoAnimation();
 
+function print(){
+    
+}
+
 

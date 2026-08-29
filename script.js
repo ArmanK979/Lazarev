@@ -59,7 +59,8 @@ function loadingAnimation() {
     })
 }
 
-function navAnimation() {
+
+function navAnimation(){
     var nav = document.querySelector("nav")
 
     nav.addEventListener("mouseenter", function () {
@@ -104,28 +105,23 @@ function navAnimation() {
 function page2Animation() {
     var rightElems = document.querySelectorAll(".right-elem")
 
-    rightElems.forEach(function (elem) {
-        elem.addEventListener("mouseenter", function () {
-
-
-
-
-            gsap.to(elem.childNodes[3], {
-                opacity: 1,
-                scale: 1
-            })
+    rightElems.forEach(function(elem){
+    elem.addEventListener("mouseenter",function(){
+        gsap.to(elem.childNodes[3],{
+            opacity:1,
+            scale:1
         })
-        elem.addEventListener("mouseleave", function () {
-            gsap.to(elem.childNodes[3], {
-                opacity: 0,
-                scale: 0
-            })
+    })
+    elem.addEventListener("mouseleave",function(){
+        gsap.to(elem.childNodes[3],{
+            opacity:0,
+            scale:0
         })
-        elem.addEventListener("mousemove", function (dets) {
-
-            gsap.to(elem.childNodes[3], {
-                x: dets.x - elem.getBoundingClientRect().x - 90,
-                y: dets.y - elem.getBoundingClientRect().y - 215
+    })
+    elem.addEventListener("mousemove",function(dets){
+        gsap.to(elem.childNodes[3],{
+            x:dets.x - elem.getBoundingClientRect().x-50,
+            y:dets.y - elem.getBoundingClientRect().y-120
             })
         })
     })
@@ -152,7 +148,6 @@ function page3VideoAnimation() {
         })
     })
 
-
     var sections = document.querySelectorAll(".sec-right")
 
     sections.forEach(function (elem) {
@@ -165,7 +160,6 @@ function page3VideoAnimation() {
             elem.childNodes[3].load()
         })
     })
-
 }
 
 function page6Animations() {
@@ -185,12 +179,13 @@ function page6Animations() {
 
 locomotiveAnimation()
 
-navAnimation()
+navAnimation();
 
-page2Animation()
+page2Animation();
 
-page3VideoAnimation()
+page3VideoAnimation();
 
 page6Animations()
 
 loadingAnimation()
+

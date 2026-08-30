@@ -2,11 +2,6 @@
 
 A frontend clone of the LAZAREV. digital product design agency website, created as a practice project to improve my skills in **HTML, CSS, JavaScript, animations, and modern website interactions**.
 
-## 🚀 Live Demo
-
-[View Live Demo](#)
-
-> Replace the link above with your GitHub Pages / Netlify / Vercel deployment URL.
 
 ## 📌 About The Project
 
